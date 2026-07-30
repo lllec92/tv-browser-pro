@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TV Browser Pro</string>
+    <string name="hint_url">Введите адрес сайта</string>
+    <string name="btn_open">Открыть</string>
+    <string name="btn_back">Назад</string>
+    <string name="btn_home">Домой</string>
+    <string name="btn_favorites">Избранное</string>
+    <string name="btn_settings">Настройки</string>
+    <string name="default_url">https://www.google.com</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_use_exoplayer">Использовать встроенный ExoPlayer</string>
+    <string name="settings_hw_accel">Аппаратное ускорение</string>
+    <string name="settings_auto_fullscreen">Авто fullscreen видео</string>
+    <string name="settings_clear_cache">Очистить кеш</string>
+    <string name="settings_clear_cookies">Очистить cookies</string>
+    <string name="settings_cleared">Готово</string>
+    <string name="player_error">Ошибка воспроизведения видео</string>
+    <string name="loading">Загрузка…</string>
+</resources>
