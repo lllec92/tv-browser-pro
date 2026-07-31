@@ -138,7 +138,7 @@ class VideoPlayerActivity : AppCompatActivity(), RemoteController.Callback {
         currentPlayer.playWhenReady = !currentPlayer.playWhenReady
     }
 
-    override fun onBackPressed(): Boolean {
+    override fun onRemoteBackPressed(): Boolean {
         finish()
         return true
     }
