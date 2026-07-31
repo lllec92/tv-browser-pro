@@ -22,7 +22,7 @@ class RemoteController(private val callback: Callback) {
          * (например, выход из плеера), иначе false, чтобы
          * событие продолжило обычную обработку.
          */
-        fun onBackPressed(): Boolean = false
+        fun onRemoteBackPressed(): Boolean = false
     }
 
     /**
@@ -60,7 +60,7 @@ class RemoteController(private val callback: Callback) {
                 true
             }
             KeyEvent.KEYCODE_BACK -> {
-                callback.onBackPressed()
+                callback.onRemoteBackPressed()
             }
             else -> false
         }
